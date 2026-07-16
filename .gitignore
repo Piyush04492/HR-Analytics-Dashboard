@@ -1,3 +1,8 @@
-*.pbi/cache.abf
-*.tmp
-*.log
+# Ignore the heavy binary Power BI file
+*.pbix
+
+# Ignore Power BI user-specific configurations and cache folders
+*.user.config
+.pbi/
+cache.abf
+backup.abf
