@@ -44,13 +44,18 @@ Organizations face significant costs and disruptions when high-performing talent
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
+
 ```text
-├── hr_analytics_dataset.csv     # The raw source data file
-├── HR_Analytics_Dashboard.pbip  # Completed Power BI workbook file
-├── Screenshots/
-│   └── dashboard_preview.png       # UI/UX preview images
-└── README.md                        # Project documentation
+├── hr_analytics_dataset.csv
+├── HR_Analytics_Dashboard.pbix
+├── images/
+│   ├── dashboard_overview.png
+│   ├── department_analysis.png
+│   ├── age_filter.png
+│   └── department_age_segmentation.png
+└── README.md
+```
 
 ---
 
@@ -58,30 +63,22 @@ Organizations face significant costs and disruptions when high-performing talent
 
 ### 1. Dashboard Overview
 
-A high-level view of key HR metrics, including total employees, active employees, attrition rate, average age, and experience.
-
 ![Dashboard Overview](images/dashboard_overview.png)
 
 ---
 
 ### 2. Department-wise Analysis
 
-Analyze employee distribution and attrition across different departments to identify departments with higher workforce turnover.
-
-![Department-wise Analysis](images/department_analysis.png)
+![Department Analysis](images/department_analysis.png)
 
 ---
 
-### 3. Employee Segmentation by Age Group
+### 3. Employee Segmentation by Age
 
-Demonstrates how the dashboard dynamically updates when filtering employees by different age groups using interactive slicers.
-
-![Age Group Filter](images/age_filter.png)
+![Age Filter](images/age_filter.png)
 
 ---
 
-### 4. Department and Age-wise Segmentation
+### 4. Department & Age Segmentation
 
-Shows combined filtering by both **Department** and **Age Group**, enabling deeper workforce and attrition analysis for specific employee segments.
-
-![Department and Age Segmentation](images/department_age_segmentation.png)
+![Department and Age](images/department_age_segmentation.png)
